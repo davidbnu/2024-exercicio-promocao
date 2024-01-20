@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Krona+One&family=Montserrat:wght@400;600&family=Rubik+Burned&display=swap');
+
+:root {
+    --cor-fundo: #040D12;
+    --cor-principal: #93B1A6;
+    --cor-secundaria: #5C8374;
+    --cor-destaque: #183D3D;
+
+    --font-pre: 'Cedarville Cursive', cursive;
+    --font-destaque: 'Rubik Burned', system-ui;
+    --font-titulo: 'Krona One', sans-serif; 
+    --font-texto: 'Montserrat', sans-serif;
+}
+
+/*header*/
+.cabecalho {
+    background-color: var(--cor-fundo);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.cabelhao__destaque__imagem {
+    width: 5%;
+}
+
+/*main*/
+.principal {
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+    padding: 2% 15%;
+}
+
+.principal__destaque {
+    display: flex;
+}
+
+.principal__promocao {
+    width: 100%;
+}
+
+.principal__titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__titulo__pre {
+    font-family: var(--font-pre);
+    font-size: 64px;
+    font-weight: 400;
+    color: var(--cor-destaque);
+}
+
+.principal__titulo__destaque {
+    font-size: 64px;
+    font-weight: 400;
+    font-family: var(--font-destaque);
+    padding: 0 20%;
+}
+
+.principal__subtitulo {
+    font-size: 24px;
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.principal__descricao {
+    font-family: var(--font-texto);
+    font-size: 12px;
+    text-align: center;
+}
+
+.principal__formulario {
+    width: 80%;
+}
+
+.principal__formulario__titulo {
+    font-size: 24px;
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    text-align: center;
+}
+
+.principal__formulario__descricao {
+    font-family: var(--font-texto);
+    font-size: 12px;
+    text-align: center;
+    padding: 1rem 0 0 0;    
+}
+
+.principal__formulario__form {
+    padding: 1rem 0;
+}
+
+.formulario__campo {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+}
+
+.formulario__label {
+    padding-bottom: 0.5rem;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 0.5rem;
+}
+
+.formulario__campo {
+    padding: 0.5rem;
+    font-size: 24px;
+    border-radius: 5rem;
+    border: none;
+}
+
+.formulario__campo:focus {
+    background-color: var(--cor-destaque);
+}
+
+.formulario__botao {
+    width: 100%;
+    color: var(--cor-principal);
+    background-color: var(--cor-fundo);
+    border: 1px solid var(--cor-principal);
+    border-radius: 10rem;
+    font-size: 24px;
+    font-family: var(--font-titulo);
+    font-weight: 600;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.formulario__botao:hover {
+    background-color: var(--cor-destaque);
+    cursor: pointer;
+}

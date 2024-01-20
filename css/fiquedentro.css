@@ -1,0 +1,71 @@
+.fiquedentro {
+    padding: 2% 15%;    
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+}
+
+.fiquedentro__informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.fiquedentro__titulo {
+    color: var(--cor-destaque);
+    font-family: var(--font-titulo);
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.fiquedentro__descricao {
+    font-family: var(--font-titulo);
+    font-size: 20px;
+}
+
+.fiquedentro__descricao__destaque {
+    font-family: var(--font-titulo);
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.fiquedentro__imagem {
+    width: 40%;
+}
+
+.fiquedentro__lista {
+    display: flex;
+    padding: 2rem 0;
+}
+
+.fiquedentro__lista_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fiquedentro__produto__titulo {
+    font-family: var(--font-titulo);
+    font-size: 24px;
+}
+
+.fiquedentro__descricao {
+    font-family: var(--font-texto);
+    font-size: 12px;
+    padding: 0 3rem;
+}
+
+.fiquedentro__botao {
+    font-family: var(--font-texto);
+    color: var(--cor-principal);
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 15px;
+    border: solid 2px var(--cor-principal);
+    padding: 0.5rem 3rem;
+}

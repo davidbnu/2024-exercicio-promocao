@@ -1,0 +1,39 @@
+.vantagens {
+    padding: 2rem 0;
+}
+
+.vantagens__lista {
+    padding: 2rem 0;
+    display: flex;
+}
+
+.vantagens__presentes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+    gap: 1rem;
+}
+
+.vantagens__presentes__imagem {
+    width: 15%;
+    margin: 0 auto;
+}
+
+.vantagens__presentes__titulo {
+    font-family: var(--font-texto);
+    font-size: 24px;
+}
+
+.vantagens__presentes__descicao {
+    font-family: var(--font-texto);
+    font-size: 12px;
+}
+
+.formulario__vantagens {
+    text-align: center;
+}
+
+.formulario__botao__vantagens {
+    width: 30%;
+}

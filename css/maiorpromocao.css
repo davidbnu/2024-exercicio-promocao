@@ -1,0 +1,31 @@
+.maiorpromocao {
+    background-color: var(--cor-destaque);
+    padding: 5% 15%;
+    position: relative;
+}
+
+.maiorpromocao__titulo {
+    color: var(--cor-secundaria);
+    font-family: var(--font-titulo);
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.maiorpromocao__titulo__destaque {
+    color: var(--cor-principal);
+    font-family: var(--font-titulo);
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+.maiorpromocao__imagem {
+    width: 15%;
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
