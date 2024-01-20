@@ -1,0 +1,69 @@
+@media (max-width: 560px) {
+
+    .cabecalho {
+        padding: 1rem 0;
+    }
+    .cabelhao__destaque__imagem {
+        width: 20%;
+    }
+
+    .principal {
+        padding: 1% 0%;
+    }
+
+    .principal__promocao {
+        padding: 1rem 0 3rem 0;
+    }
+
+    .principal__destaque {
+        flex-direction: column;
+    }
+
+    .principal__titulo__destaque {
+        padding: 0;
+    }
+
+    .principal__formulario {
+        width: 100%;
+    }
+
+    .principal__titulo__destaque {
+        text-align: center;
+    }
+
+    .vantagens__presentes {
+        width: 100%;
+    }
+
+    .formulario__botao__vantagens {
+        width: 95%;
+    }
+
+    .vantagens__lista {
+        flex-direction: column;
+    }
+
+    .fiquedentro__lista {
+        flex-direction: column;
+    }
+
+    .maiorpromocao {
+        padding: 3rem 0;
+    }
+
+    .maiorpromocao__titulo {
+        font-size: 2rem;
+    }
+
+    .maiorpromocao__titulo__destaque {
+        font-size: 2.3rem;
+    }
+
+    .fiquedentro {
+        padding: 2rem 0;
+    }
+
+    .fiquedentro__descricao {
+        padding: 0 1rem;
+    }
+  }
